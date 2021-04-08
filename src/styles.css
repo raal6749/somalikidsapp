@@ -57,7 +57,7 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
 		#nav, #clone nav { position: absolute; right: 50%; top: 63px; z-index: 3; margin: 0 -550px 0 0; }
 			#nav > ul, #clone nav > ul { list-style: none; margin: 0; padding: 0; }
 				#nav > ul > li, #clone nav > ul > li { position: relative; float: left; padding: 0 0 0 30px; font-size: 1.4em; font-weight: 700; text-transform: uppercase; }
-				#nav > ul > li > a, #clone nav > ul > li > a { display: block; float: left; height: 35px; padding: 0 18px; color: #fff; line-height: 35px; text-decoration: none; }
+				#nav > ul > li > a, #clone nav > ul > li > a { display: block; float: left; height: 35px; padding: 0 18px; color: #fff; line-height: 35px; font-size: 2.0em; text-decoration: none; }
 					#nav > ul > li.active > a, #clone nav > ul > li.active > a { cursor: text; }
 					#nav > ul > li > a:hover, #nav > ul > li.active > a, #nav > ul > li:hover > a { background: #fff; color: #6f8188; }
 					#nav > ul > li.sub:hover > a { padding-bottom: 2px; }
@@ -103,7 +103,7 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
 		#welcome h1, #welcome h2 { position: relative; margin-bottom: -4px; padding-top: 0; color: #fff; font-size: 6.6em; font-weight: 300; }
 			#welcome h1 img, #welcome h2 img { content: ""; display: block; margin: 0 0 25px; }
 			#welcome h1 span, #welcome h2 span { font-weight: 700; }
-		#welcome p { margin-bottom: 36px; font-size: 2.4em; }
+		#welcome p { margin-bottom: 36px; font-size: 4em; }
 		#welcome .download-a { text-align: left; }
 			#welcome .download-a li { margin: 0 22px 24px 0; }
 		#welcome.data-pattern, #featured.data-pattern, #content.a > .vb.data-pattern { background-size: cover; background-repeat: no-repeat; }
@@ -116,7 +116,7 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
 	#content { position: relative; z-index: 7; width: 1100px; margin: 0 auto; padding: 73px 0 40px; }
 	#content:after { content: ""; display: block; overflow: hidden; clear: both; height: 0; }
 	#content.a { width: 100%; padding: 0; }
-		#content.a > *, #content.a > #contact { overflow: hidden; position: relative; z-index: 2; width: 1100px; margin: 0 auto; padding: 73px 0 40px; }
+		#content.a > *, #content.a > #contact { position: relative; z-index: 2; width: 1100px;  margin: 0 auto; margin-top: 3rem; }
 		#content.a > .has-news-d { overflow: visible; }
 		#content.a > #contact { width: 100%; }
 		#content.a > .va, #content.a > .vb { position: relative; width: 100%; background: #f4f4f4; }
@@ -310,9 +310,9 @@ img[src*="maps.gstatic.com"], img[src*="googleapis.com"], img[src*="google"] { m
 	
 .heading-a { margin-bottom: /*92*/30px; color: #7e7e7e; text-align: center; }
 	.heading-a h1, .heading-a h2, .heading-a h3 { position: relative; margin-bottom: 38px; padding-bottom: 24px; font-size: 4em; }
-		.heading-a h1 .small, .heading-a h2 .small, .heading-a h3 .small { display: block; margin-bottom: 10px; color: #000; font-weight: 700; font-size: .35em; text-transform: uppercase; }
+		.heading-a h1 .small, .heading-a h2 .small, .heading-a h3 .small { display: block; margin-bottom: 10px; color: #000; font-weight: 700; font-size: 0.7em; text-transform: uppercase; }
 		.heading-a h1:before, .heading-a h2:before, .heading-a h3:before { content: ""; display: block; position: absolute; left: 50%; bottom: 0; width: 59px; height: 3px; margin: 0 0 0 -29.5px; background: #000; }
-	.heading-a p { max-width: 750px; margin-top: -10px; margin-left: auto; margin-right: auto; margin-bottom: 50px; font-size: 1.8em; }
+	.heading-a p { max-width: 750px; margin-top: -10px; margin-left: auto; margin-right: auto; margin-bottom: 50px; font-size: 3em; }
 .heading-a.a { text-align: left; }
 	.heading-a.a h1:before, .heading-a.a h2:before, .heading-a.a h3:before { left: 0; margin: 0; }
 	.heading-a.a p { max-width: none; }
@@ -453,7 +453,7 @@ img[src*="maps.gstatic.com"], img[src*="googleapis.com"], img[src*="google"] { m
 	.news-d article h1, .news-d article h2, .news-d article h3, .news-d article h4, .news-d article h5, .news-d article h6 { position: relative; margin: 0 0 21px; padding: 0 0 16px; color: #666; font-weight: 400; font-size: 2.238em; }
 		.news-d article h1:before, .news-d article h2:before, .news-d article h3:before, .news-d article h4:before, .news-d article h5:before, .news-d article h6:before { content: ""; display: block; position: absolute; left: 0; bottom: 0; width: 55px; height: 3px; background: #000; }
 		.news-d article h1 a, .news-d article h2 a, .news-d article h3 a, .news-d article h4 a, .news-d article h5 a, .news-d article h6 a { color: #666; }
-	.news-d article p { color: #666; font-size: 1.3em; }
+	.news-d article p { color: #666; font-size: 2.4em; }
 .js .news-d { overflow: hidden; left: 31px; width: 1035px; margin-top: -10px; margin-bottom: -30px; padding-top: 10px; padding-bottom: 30px; }
 	.news-d .bx-wrapper, .news-d .bx-viewport { overflow: visible !important; }
 	.news-d .bx-viewport { left: 20px !important; }
@@ -605,7 +605,8 @@ sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: b
 
 
 /*! Links --------- */
-a { background: none; color: #000; text-decoration: none; cursor: pointer; } /*---*/ a span { cursor: pointer; }
+a { background: none; color: #000; font-size: 1.1rem;
+  text-decoration: none; cursor: pointer; } /*---*/ a span { cursor: pointer; }
 	a:hover, a:focus, a:active { text-decoration: underline; outline: none; }
 
 .link-a { overflow: hidden; width: 100%; margin-top: 24px; font-size: 1.2em; font-weight: 700; text-transform: uppercase; text-align: center; letter-spacing: .1em; }
@@ -706,18 +707,19 @@ figure { margin-bottom: 27px; }
 .mobile-g, #root .mobile-g { width: 530px; height: 300px; padding: 27px 59px 45px 86px; background: url(./assets/images/mobile-g.png) no-repeat; text-align: center; }
 
 @media only screen and (max-width: 1026px) {
-  .mobile-c {
+  .mobile-c, .hideOnsmall {
     display: none;
   }
 }
 
-@media only screen and (max-width: 1026px) {
+
+@media only screen and (min-width: 1026px) {
   .centerImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto
+    display: none;
   }
 }
+
+
 
 
 
@@ -856,7 +858,7 @@ svg:not(:root) { overflow: hidden; }
 
 /*! Theme - Red --------- */
 .theme-a button, .theme-a input[type="button"], .theme-a input[type="reset"], .theme-a input[type="submit"], .theme-a a, .theme-a .scheme-a, .theme-a .news-a header ul li i, .theme-a .news-a header ul li i:before, .theme-a .news-a header ul li a:hover, .theme-a #clone nav > ul > li.active > a, .theme-a #clone nav > ul > li:hover > a, .theme-a #clone nav > ul > li > a:hover, .theme-a .nav-a ul li a:hover span, .theme-a .nav-a ul li.active a span, .theme-a #root .search-a button, .theme-a .heading-a h1 .small, .theme-a .heading-a h2 .small, .theme-a .heading-a h3 .small, .theme-a .news-b article header p span, .theme-a .pagination-a li a, .theme-a .list-a li i, .theme-a .list-c > li > a, .theme-a .counter > span span, .theme-a .comments-a .date, .theme-a .nav-a h1 em, .theme-a .nav-a h2 em, .theme-a .nav-a h3 em, .theme-a .nav-a h4 em, .theme-a #root .nav-a > ul li.nav-sub a:hover, .theme-a #root .nav-a > ul li.nav-sub.active a, .theme-a .nav-a > ul li.nav-sub i:before, .theme-a #root .nav-a-new > ul li a:hover, .theme-a #root .nav-a-new > ul li.active a, .theme-a #root .nav-a.aside-cal ul li a:hover, .theme-a #root .nav-a.aside-cal ul li.active a { color: #f32160; }
-.theme-a button:hover, .theme-a input[type="button"]:hover, .theme-a input[type="reset"]:hover, .theme-a input[type="submit"]:hover, .theme-a #featured, .theme-a #clone h1 a, .theme-a .nav-a ul li a:hover, .theme-a .nav-a ul li.active a, .theme-a #footer:before, .theme-a .social-a li a:hover, .theme-a .download-a li a:hover, .theme-a #top.active > .fit-a:before, .theme-a #top.active > .fit-a:after, .theme-a #clone.active > .fit-a:before, .theme-a #clone.active > .fit-a:after, .theme-a .heading-a h1:before, .theme-a .heading-a h2:before, .theme-a .heading-a h3:before, .theme-a .gallery-a li a:before, .theme-a .semantic-select .ticker:before, .theme-a #root .semantic-select ul li.active a, .theme-a .news-b article h1:before, .theme-a .news-b article h2:before, .theme-a .news-b article h3:before, .theme-a .news-b article h5:before, .theme-a .link-a a:hover, .theme-a .pagination-a li a:hover, .theme-a .pagination-a li.active a, .theme-a #root .semantic-select ul li a:hover, .theme-a .list-a li a:hover i, .theme-a #welcome h1:before, .theme-a #welcome h2:before, .theme-a .list-b li .no, .theme-a #content.a > .vb, .theme-a .news-c article, .theme-a .form-b button:before, .theme-a .list-c > li > a:hover, .theme-a .list-c > li > span span, .theme-a .counter > span span:before, .theme-a .comments-a ul:before, .theme-a .gallery-b li:before, .theme-a #root .gallery-b li > .fit-a:before, .theme-a #root .gallery-b li > .fit-a:after, .theme-a .gallery-c ul li:before, .theme-a .gallery-c .bx-pager .bx-pager-item a.active, .theme-a [data-carousel-3d] [data-prev-button], .theme-a [data-carousel-3d] [data-next-button], .theme-a [data-carousel-3d] [data-prev-button]:hover, .theme-a [data-carousel-3d] [data-next-button]:hover, .theme-a .slider-ba .bx-prev, .theme-a .slider-ba .bx-next, .theme-a .slider-ba .bx-prev:hover, .theme-a .slider-ba .bx-next:hover, .theme-a .slider-ba, .theme-a .gallery-b.b > li > div:before, .theme-a .news-d article h1:before, .theme-a .news-d article h2:before, .theme-a .news-d article h3:before, .theme-a .news-d article h4:before, .theme-a .news-d article h5:before, .theme-a .news-d article h6:before, .theme-a .news-d .bx-pager-item a.active, .theme-a .gallery-a .bx-pager-item a.active, .theme-a .gallery-b .bx-pager-item a.active, .theme-a .nav-a > ul li a:hover span.scheme-a, .theme-a .nav-a > ul li.active a span.scheme-a, .theme-a .news-e h1:before, .theme-a .news-e h2:before, .theme-a .news-e h3:before, .theme-a .news-e header figure:before, .theme-a .slider-bb .bx-prev, .theme-a .slider-bb .bx-next, .theme-a #welcome, .theme-a .gallery-a li.plain a .date:before { background-color: #f32160; color: #fff; }
+.theme-a button:hover, .theme-a input[type="button"]:hover, .theme-a input[type="reset"]:hover, .theme-a input[type="submit"]:hover, .theme-a #featured, .theme-a #clone h1 a, .theme-a .nav-a ul li a:hover, .theme-a .nav-a ul li.active a, .theme-a #footer:before, .theme-a .social-a li a:hover, .theme-a .download-a li a:hover, .theme-a #top.active > .fit-a:before, .theme-a #top.active > .fit-a:after, .theme-a #clone.active > .fit-a:before, .theme-a #clone.active > .fit-a:after, .theme-a .heading-a h1:before, .theme-a .heading-a h2:before, .theme-a .heading-a h3:before, .theme-a .gallery-a li a:before, .theme-a .semantic-select .ticker:before, .theme-a #root .semantic-select ul li.active a, .theme-a .news-b article h1:before, .theme-a .news-b article h2:before, .theme-a .news-b article h3:before, .theme-a .news-b article h5:before, .theme-a .link-a a:hover, .theme-a .pagination-a li a:hover, .theme-a .pagination-a li.active a, .theme-a #root .semantic-select ul li a:hover, .theme-a .list-a li a:hover i, .theme-a #welcome h1:before, .theme-a #welcome h2:before, .theme-a .list-b li .no, .theme-a #content.a > .vb, .theme-a .news-c article, .theme-a .form-b button:before, .theme-a .list-c > li > a:hover, .theme-a .list-c > li > span span, .theme-a .counter > span span:before, .theme-a .comments-a ul:before, .theme-a .gallery-b li:before, .theme-a #root .gallery-b li > .fit-a:before, .theme-a #root .gallery-b li > .fit-a:after, .theme-a .gallery-c ul li:before, .theme-a .gallery-c .bx-pager .bx-pager-item a.active, .theme-a [data-carousel-3d] [data-prev-button], .theme-a [data-carousel-3d] [data-next-button], .theme-a [data-carousel-3d] [data-prev-button]:hover, .theme-a [data-carousel-3d] [data-next-button]:hover, .theme-a .slider-ba .bx-prev, .theme-a .slider-ba .bx-next, .theme-a .slider-ba .bx-prev:hover, .theme-a .slider-ba .bx-next:hover, .theme-a .slider-ba, .theme-a .gallery-b.b > li > div:before, .theme-a .news-d article h1:before, .theme-a .news-d article h2:before, .theme-a .news-d article h3:before, .theme-a .news-d article h4:before, .theme-a .news-d article h5:before, .theme-a .news-d article h6:before, .theme-a .news-d .bx-pager-item a.active, .theme-a .gallery-a .bx-pager-item a.active, .theme-a .gallery-b .bx-pager-item a.active, .theme-a .nav-a > ul li a:hover span.scheme-a, .theme-a .nav-a > ul li.active a span.scheme-a, .theme-a .news-e h1:before, .theme-a .news-e h2:before, .theme-a .news-e h3:before, .theme-a .news-e header figure:before, .theme-a .slider-bb .bx-prev, .theme-a .slider-bb .bx-next, .theme-a #welcome, .theme-a .gallery-a li.plain a .date:before { color: #fff; }
 .theme-a button, .theme-a input[type="button"], .theme-a input[type="reset"], .theme-a input[type="submit"], .theme-a input:focus, .theme-a select:focus, .theme-a textarea:focus, .theme-a #top > .fit-a:before, .theme-a #top > .fit-a:after, .theme-a #clone > .fit-a:before, .theme-a #clone > .fit-a:after, .theme-a .semantic-select.focus .input, .theme-a .semantic-select.active .input, .theme-a .semantic-select ul, .theme-a #contact input:focus, .theme-a #contact select:focus, .theme-a #contact textarea:focus, .theme-a #contact .semantic-select.focus .input, .theme-a #contact .semantic-select.active .input, .theme-a .link-a a, .theme-a .pagination-a li a, .theme-a .form-b input:focus, .theme-a .list-c > li > a, .theme-a #root .gallery-b li > .fit-a, .theme-a .link-a.a a { border-color: #f32160; }
 
 
@@ -1864,7 +1866,7 @@ body { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 	#welcome > * { padding-left: 300px; }
 	#welcome h1, #welcome h2 { padding-top: 0; font-size: 4.6em; }
 		#welcome h1:before, #welcome h2:before, #welcome h1 img, #welcome h2 img { left: -3000em; }
-	#welcome p { font-size: 1.6em; }
+	#welcome p { font-size: 4em; }
 	#welcome .download-a { }
 		#welcome .download-a li { margin: 0 10px 10px 0; }
 #content { }
