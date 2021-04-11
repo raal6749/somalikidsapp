@@ -127,7 +127,7 @@ article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, 
 			#content.a > .vb h1, #content.a > .vb h2, #content.a > .vb h3, #content.a > .vb h4, #content.a > .vb h5, #content.a > .vb h6, #content.a > .vb h1 .small, #content.a > .vb h2 .small, #content.a > .vb h3 .small, #content.a > .vb h4 .small, #content.a > .vb h5 .small, #content.a > .vb h6 .small, #content.a > .vb a, #content.a > .vb .heading-a *, #content.a > .vid .heading-a * { color: #fff; }
 			#content.a > .vb h1:before, #content.a > .vb h2:before, #content.a > .vb h3:before, #content.a > .vb h4:before, #content.a > .vb h5:before { background: #fff; }
 			#content.a > .vb .slider-a { background: rgba(255,255,255,.16); }
-			.lt-ie9 #content.a > .vb .slider-a { background: url(../images/shade-a.png); }
+			.lt-ie9 #content.a > .vb .slider-a { background: url(../assets/images/shade-a.png); }
 			/*.lt-ie9 #content.a > .vb .slider-a { background: transparent; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#28FFFFFF,endColorstr=#28FFFFFF); zoom: 1; }*/
 		#content.a > .vid { width: 100%; padding: 0; background: #523035; }
 			#content.a > .vid .heading-a { position: absolute; left: 50%; top: 73px; z-index: 2; width: 1100px; margin-left: -550px; margin-bottom: 0; }
@@ -169,12 +169,12 @@ img[src*="maps.gstatic.com"], img[src*="googleapis.com"], img[src*="google"] { m
 		#footer > * { width: 1100px; margin-left: auto; margin-right: auto; }
 		#footer h1, #footer h2, #footer h3, #footer h4 { margin-bottom: 25px; color: #a7a6a4; font-size: 1.6em; }
 		#footer .download-a { }
-			#footer .download-a li.as a:hover { background-image: url(../images/download-as-c.png); }
-			#footer .download-a li.gp a:hover { background-image: url(../images/download-gp-c.png); }
+			#footer .download-a li.as a:hover { background-image: url(./assets/images/download-as-c.png); }
+			#footer .download-a li.gp a:hover { background-image: url(./assets/images/download-gp-c.png); }
 		#footer .social-a { }
-			#footer .social-a li.fb a:before, #footer .social-a li.fb a:hover { background-image: url(../images/icon-fb-d.png); }
-			#footer .social-a li.tw a:before, #footer .social-a li.tw a:hover { background-image: url(../images/icon-tw-d.png); }
-			#footer .social-a li.in a:before, #footer .social-a li.in a:hover { background-image: url(../images/icon-in-d.png); }
+			#footer .social-a li.fb a:before, #footer .social-a li.fb a:hover { background-image: url(./assets/images/icon-fb-d.png); }
+			#footer .social-a li.tw a:before, #footer .social-a li.tw a:hover { background-image: url(./assets/images/icon-tw-d.png); }
+			#footer .social-a li.in a:before, #footer .social-a li.in a:hover { background-image: url(./assets/images/icon-in-d.png); }
 		#footer p { position: relative; margin-top: 44px; margin-bottom: 0; padding: 16px 0; background: #e6e6e6; color: #666; font-size: 1.4em; }
 			#footer p:before, #footer p:after { content: ""; display: block; position: absolute; top: 0; width: 1000em; height: 100%; background: #e6e6e6; }
 				#footer p:before { left: 100%; }
@@ -208,11 +208,11 @@ img[src*="maps.gstatic.com"], img[src*="googleapis.com"], img[src*="google"] { m
 		.boxshadow .counter > span span { box-shadow: 0 2px 3px rgba(0,0,0,.45); }
 		.counter > span span:before { content: ""; display: block; position: absolute; left: -1px; top: 50%; right: -1px; width: auto; height: 1px; margin: -.5px 0 0; background: #000; }
 
-.download-a { list-style: none; margin: 0; padding: 0; background: url(../images/download-as-b.png) -3000em -3000em no-repeat; text-align: center; }
-	.download-a li { display: inline-block; margin: 0 14px 10px; background: url(../images/download-gp-b.png) -3000em -3000em no-repeat; }
+.download-a { list-style: none; margin: 0; padding: 0; background: url(./assets/images/download-as-b.png) -3000em -3000em no-repeat; text-align: center; }
+	.download-a li { display: inline-block; margin: 0 14px 10px; background: url(../assets/images/download-gp-b.png) -3000em -3000em no-repeat; }
 	.download-a li a { display: inline-block; overflow: hidden; position: relative; width: 200px; height: 65px; border-radius: 6px; text-indent: -3000em; text-align: left; }
-		.download-a li.as a { background: url(../images/download-as-a.png) -5px -5px no-repeat #fff; }
-		.download-a li.gp a { background: url(../images/download-gp-a.png) -5px -5px no-repeat #fff; }
+		.download-a li.as a { background: url(./assets/images/download-as-a.png) -5px -5px no-repeat #fff; }
+		.download-a li.gp a { background: url(./assets/images/download-gp-a.png) -5px -5px no-repeat #fff; }
 	.download-a li a:hover { background-color: #000; }
 		.download-a li.as a:hover { background-image: url(../images/download-as-b.png); }
 		.download-a li.gp a:hover { background-image: url(../images/download-gp-b.png); }

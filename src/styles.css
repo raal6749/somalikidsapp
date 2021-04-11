@@ -38,9 +38,9 @@
 html { overflow-y: scroll; min-height: 100%; margin: 0 0 1px; font-size: 100.01%; -webkit-tap-highlight-color: rgba(0,0,0,0); -moz-osx-font-smoothing: grayscale; -webkit-overflow-scrolling: touch; }
 body { min-height: 100%;  background: #e6e6e6; font-size: 62.5%; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-body, textarea, input, select, option, button { color: #929292; font-family: 'Open Sans', Arial, Helvetica, sans-serif; line-height: 3.1; }
-li, dt, dd, p, figure, th, td, caption, legend, pre { font-size: 1.5em; } li *, dt *, dd *, p *, figure *, th *, td *, legend * { font-size: 1em; }
-ul, ol, dl, p, figure, table, pre, h1, h2, h3, h4, h5, h6, legend { margin-bottom: 20px; }
+body, textarea, input, select, option, button { color: black; font-family: 'Open Sans', Arial, Helvetica, sans-serif; line-height: 3.1; }
+li, dt, dd, p, figure, th, td, caption, legend, pre { font-size: 2em; } li *, dt *, dd *, p *, figure *, th *, td *, legend * { font-size: 1em; }
+ul, ol, dl, figure, table, pre, h1, h2, h3, h4, h5, h6, legend { margin-bottom: 20px; }
 
 article, aside, details, div, figcaption, figure, footer, header, hgroup, menu, nav, section, summary { display: block; }
 
@@ -312,7 +312,7 @@ img[src*="maps.gstatic.com"], img[src*="googleapis.com"], img[src*="google"] { m
 	.heading-a h1, .heading-a h2, .heading-a h3 { position: relative; margin-bottom: 38px; padding-bottom: 24px; font-size: 4em; }
 		.heading-a h1 .small, .heading-a h2 .small, .heading-a h3 .small { display: block; margin-bottom: 10px; color: #000; font-weight: 700; font-size: 0.7em; text-transform: uppercase; }
 		.heading-a h1:before, .heading-a h2:before, .heading-a h3:before { content: ""; display: block; position: absolute; left: 50%; bottom: 0; width: 59px; height: 3px; margin: 0 0 0 -29.5px; background: #000; }
-	.heading-a p { max-width: 750px; margin-top: -10px; margin-left: auto; margin-right: auto; margin-bottom: 50px; font-size: 3em; }
+	.heading-a p { max-width: 750px; margin-top: -10px; margin-left: auto; margin-right: auto;  font-size: 3em; }
 .heading-a.a { text-align: left; }
 	.heading-a.a h1:before, .heading-a.a h2:before, .heading-a.a h3:before { left: 0; margin: 0; }
 	.heading-a.a p { max-width: none; }
