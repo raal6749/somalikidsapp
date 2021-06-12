@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e127de7-c278-4637-8d6a-f943ab034f78" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/playstore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/screen1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/screen2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/screen3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/screen4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/screen5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/screen6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/512.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/home-page/home-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home-page/home-page.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/screen1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/screen2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/screen3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/screen4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/screen5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/screen6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/screen7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -34,26 +22,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="33" column="116" selection-start-line="33" selection-start-column="116" selection-end-line="33" selection-end-column="116" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#h1#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/home-page/home-page.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="69" selection-start-line="1" selection-start-column="69" selection-end-line="1" selection-end-column="69" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/home-page/home-page.component.html">
+        <entry file="file://$PROJECT_DIR$/src/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="110" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="110" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#article#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="248">
+              <caret line="105" column="17" selection-start-line="105" selection-start-column="17" selection-end-line="105" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -90,6 +81,7 @@
       <find>See what’s included in the App</find>
       <find>#f32</find>
       <find>download-as-d.png</find>
+      <find>#welcome</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -104,11 +96,11 @@
         <option value="$PROJECT_DIR$/src/screen.css" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/app/privacy/privacy.component.html" />
-        <option value="$PROJECT_DIR$/src/styles.css" />
         <option value="$PROJECT_DIR$/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/src/app/terms/terms.component.html" />
-        <option value="$PROJECT_DIR$/src/app/home-page/home-page.component.html" />
         <option value="$PROJECT_DIR$/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/src/styles.css" />
+        <option value="$PROJECT_DIR$/src/app/home-page/home-page.component.html" />
       </list>
     </option>
   </component>
@@ -236,7 +228,7 @@
       <workItem from="1623242610673" duration="100000" />
       <workItem from="1623272611404" duration="515000" />
       <workItem from="1623356727222" duration="1191000" />
-      <workItem from="1623533681416" duration="901000" />
+      <workItem from="1623533681416" duration="2831000" />
     </task>
     <task id="LOCAL-00001" summary="changed to somali">
       <created>1617832319348</created>
@@ -266,17 +258,24 @@
       <option name="project" value="LOCAL" />
       <updated>1618128952661</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="chagned home page">
+      <created>1623534692871</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1623534692871</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27236000" />
+    <option name="totallyTimeSpent" value="29166000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="932" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37593183" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37593183" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -294,7 +293,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29616308" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29616308" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -351,7 +350,8 @@
     <MESSAGE value="changed to somali" />
     <MESSAGE value="changed to swwwedush" />
     <MESSAGE value="added privacy policy page" />
-    <option name="LAST_COMMIT_MESSAGE" value="added privacy policy page" />
+    <MESSAGE value="chagned home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="chagned home page" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CNAME">
@@ -406,13 +406,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="311" column="68" selection-start-line="311" selection-start-column="68" selection-end-line="311" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -454,23 +447,24 @@
     <entry file="file://$PROJECT_DIR$/src/app/terms/terms.component.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/home-page/home-page.component.html">
+    <entry file="file://$PROJECT_DIR$/src/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="110" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="110" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#article#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="248">
+          <caret line="105" column="17" selection-start-line="105" selection-start-column="17" selection-end-line="105" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="33" column="116" selection-start-line="33" selection-start-column="116" selection-end-line="33" selection-end-column="116" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#h1#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/home-page/home-page.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="69" selection-start-line="1" selection-start-column="69" selection-end-line="1" selection-end-column="69" />
         </state>
       </provider>
     </entry>
