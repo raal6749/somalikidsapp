@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e127de7-c278-4637-8d6a-f943ab034f78" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/screen1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/screen2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/screen3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/screen4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/screen5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/screen6.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/home-page/home-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home-page/home-page.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/screen1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/screen2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/screen3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/screen4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/screen5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/screen6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/screen7.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -19,14 +33,26 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="31" column="89" selection-start-line="31" selection-start-column="89" selection-end-line="31" selection-end-column="89" />
+            <state relative-caret-position="301">
+              <caret line="33" column="116" selection-start-line="33" selection-start-column="116" selection-end-line="33" selection-end-column="116" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#h1#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/home-page/home-page.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="110" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="110" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#article#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,20 +103,19 @@
         <option value="$PROJECT_DIR$/firebase.json" />
         <option value="$PROJECT_DIR$/src/screen.css" />
         <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/src/app/home-page/home-page.component.html" />
         <option value="$PROJECT_DIR$/src/app/privacy/privacy.component.html" />
         <option value="$PROJECT_DIR$/src/styles.css" />
         <option value="$PROJECT_DIR$/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/src/app/terms/terms.component.html" />
+        <option value="$PROJECT_DIR$/src/app/home-page/home-page.component.html" />
         <option value="$PROJECT_DIR$/src/app/app.component.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="447" />
-    <option name="y" value="1465" />
-    <option name="width" value="1680" />
-    <option name="height" value="1025" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="25" />
+    <option name="width" value="1920" />
+    <option name="height" value="932" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -98,7 +123,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,6 +146,13 @@
               <item name="somalikidsapp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="home-page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="somalikidsapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="somalikidsapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="privacy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -131,10 +162,24 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="terms" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="somalikidsapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="somalikidsapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="somalikidsapp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="somalikidsapp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -188,6 +233,10 @@
       <workItem from="1623153024848" duration="635000" />
       <workItem from="1623227040254" duration="600000" />
       <workItem from="1623240169360" duration="1557000" />
+      <workItem from="1623242610673" duration="100000" />
+      <workItem from="1623272611404" duration="515000" />
+      <workItem from="1623356727222" duration="1191000" />
+      <workItem from="1623533681416" duration="901000" />
     </task>
     <task id="LOCAL-00001" summary="changed to somali">
       <created>1617832319348</created>
@@ -221,13 +270,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24529000" />
+    <option name="totallyTimeSpent" value="27236000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="447" y="1465" width="1680" height="1025" extended-state="6" />
+    <frame x="0" y="25" width="1920" height="932" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.41391942" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37593183" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -245,7 +294,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.46925566" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.29616308" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -364,16 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/home-page/home-page.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="15" column="13" selection-start-line="12" selection-start-column="4" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#article#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -404,9 +443,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/terms/terms.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/screen1.png" />
     <entry file="file://$PROJECT_DIR$/src/app/terms/terms.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -414,10 +451,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/terms/terms.component.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/home-page/home-page.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="110" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="110" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#article#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="31" column="89" selection-start-line="31" selection-start-column="89" selection-end-line="31" selection-end-column="89" />
+        <state relative-caret-position="301">
+          <caret line="33" column="116" selection-start-line="33" selection-start-column="116" selection-end-line="33" selection-end-column="116" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#h1#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
