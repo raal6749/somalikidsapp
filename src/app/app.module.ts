@@ -5,12 +5,14 @@ import {RouterModule, Routes} from "@angular/router";
 import {PrivacyComponent} from "./privacy/privacy.component";
 import { HomePageComponent } from './home-page/home-page.component';
 import { TermsComponent } from './terms/terms.component';
+import { ContactComponent } from './contact/contact.component';
 
 const appRoutes: Routes = [
   {path: '', component: HomePageComponent},
 
   {path: 'privacy', component: PrivacyComponent},
-  {path: 'termsofuse', component: TermsComponent}
+  {path: 'termsofuse', component: TermsComponent},
+  {path: 'contact', component: ContactComponent}
 ];
 
 @NgModule({
@@ -18,7 +20,8 @@ const appRoutes: Routes = [
     AppComponent,
     PrivacyComponent,
     HomePageComponent,
-    TermsComponent
+    TermsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
